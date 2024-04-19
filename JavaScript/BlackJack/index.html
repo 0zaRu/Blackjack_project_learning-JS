@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--El siguiente link es para añadir Bootstrar para ver más bonitas las cosas-->
+    <link 
+        rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous"
+    >
+    
+    <link rel="stylesheet" href="assests/css/styles.css"> 
+
+    <title>Black Jack de Alberto</title>
+
+</head>
+    <body>
+        <header class="cabecera">
+            BlackJack
+        </header>
+
+        <div class="row mt-2">
+            <div class="col text-center">
+                <button id="new" class="btn-danger">Nueva Partida</button>
+                <button id="carta" class="btn-primary">Pedir carta</button>
+                <button id="end" class="btn-warning">Acabar</button>
+            </div>
+        </div>
+        
+        <div class="row container">
+            <div class="col">
+                <h1> Jugador | 0</h1>
+                <br>
+                <div id="jugador-cartas">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="row container mt-5">
+            <div class="col">
+                <h1> Ordenador | 0</h1>
+                <br>
+                <div id="ordenador-cartas">
+                    
+                </div>
+            </div>
+        </div>
+
+        <script src="assests/js/underscore-umd-min.js"></script>
+        <script src="assests/js/juego.js"></script>
+
+    </body>
+</html>
