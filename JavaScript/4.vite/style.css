@@ -1,0 +1,29 @@
+.cabecera {
+  text-align: center;
+  background-color: bisque;
+  text-decoration: underline;
+  padding: 0.5em;
+}
+
+body {
+  background-color: rgb(51, 92, 47);
+}
+
+div {
+  color: aliceblue;
+}
+
+.carta {
+  position: relative;
+  width: 140px;
+  left: 100px;
+  margin-left: -70px;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+#jugador-cartas, #ordenador-cartas {
+  height: 220px;
+}
